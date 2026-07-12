@@ -1,0 +1,177 @@
+{
+  "sourceZip": "C:\\Прочее\\Фото для ИГР.zip",
+  "sourceFolder": "C:\\Прочее\\Twitchgamevideos\\.tmp\\asset-source",
+  "games": {
+    "baby-blues-nightmares": {
+      "mainImage": "/assets/games/baby-blues-nightmares/cover/cover.png",
+      "gallery": [
+        "/assets/games/baby-blues-nightmares/hero/hero.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-01.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-02.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-03.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-04.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-05.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-06.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-07.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-08.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-09.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-10.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-11.png"
+      ]
+    },
+    "bad-toys-the-other-mission": {
+      "mainImage": "/assets/games/bad-toys-the-other-mission/cover/cover.png",
+      "gallery": []
+    },
+    "bokkie": {
+      "mainImage": "/assets/games/bokkie/cover/cover.png",
+      "gallery": [
+        "/assets/games/bokkie/hero/hero.png",
+        "/assets/games/bokkie/gallery/gallery-01.png",
+        "/assets/games/bokkie/gallery/gallery-02.png",
+        "/assets/games/bokkie/gallery/gallery-03.png",
+        "/assets/games/bokkie/gallery/gallery-04.png",
+        "/assets/games/bokkie/gallery/gallery-05.png",
+        "/assets/games/bokkie/gallery/gallery-06.png",
+        "/assets/games/bokkie/gallery/gallery-07.png",
+        "/assets/games/bokkie/gallery/gallery-08.png",
+        "/assets/games/bokkie/gallery/gallery-09.png",
+        "/assets/games/bokkie/gallery/gallery-10.png",
+        "/assets/games/bokkie/gallery/gallery-11.png",
+        "/assets/games/bokkie/gallery/gallery-12.png",
+        "/assets/games/bokkie/gallery/gallery-13.png",
+        "/assets/games/bokkie/gallery/gallery-14.png",
+        "/assets/games/bokkie/gallery/gallery-15.png"
+      ]
+    },
+    "cakeys-twisted-bakery": {
+      "mainImage": "/assets/games/cakeys-twisted-bakery/cover/cover.png",
+      "gallery": []
+    },
+    "care-of-dandan": {
+      "mainImage": "/assets/games/care-of-dandan/cover/cover.png",
+      "gallery": []
+    },
+    "care-of-gongon": {
+      "mainImage": "/assets/games/care-of-gongon/cover/cover.png",
+      "gallery": []
+    },
+    "casino-of-binbob": {
+      "mainImage": "/assets/games/casino-of-binbob/cover/cover.png",
+      "gallery": [
+        "/assets/games/casino-of-binbob/hero/hero.png",
+        "/assets/games/casino-of-binbob/gallery/gallery-01.png",
+        "/assets/games/casino-of-binbob/gallery/gallery-02.png",
+        "/assets/games/casino-of-binbob/gallery/gallery-03.png"
+      ]
+    },
+    "circus-of-timtim": {
+      "mainImage": "/assets/games/circus-of-timtim/cover/cover.png",
+      "gallery": [
+        "/assets/games/circus-of-timtim/hero/hero.png",
+        "/assets/games/circus-of-timtim/gallery/gallery-01.png",
+        "/assets/games/circus-of-timtim/gallery/gallery-02.png",
+        "/assets/games/circus-of-timtim/gallery/gallery-03.png",
+        "/assets/games/circus-of-timtim/gallery/gallery-04.png",
+        "/assets/games/circus-of-timtim/gallery/gallery-05.png",
+        "/assets/games/circus-of-timtim/gallery/gallery-06.png"
+      ]
+    },
+    "goopys-industries": {
+      "mainImage": "/assets/games/goopys-industries/cover/cover.png",
+      "gallery": [
+        "/assets/games/goopys-industries/hero/hero.png"
+      ]
+    },
+    "gregs-deadly-draft": {
+      "mainImage": "/assets/games/gregs-deadly-draft/cover/cover.png",
+      "gallery": []
+    },
+    "happy-place": {
+      "mainImage": "/assets/games/happy-place/cover/cover.png",
+      "gallery": [
+        "/assets/games/happy-place/hero/hero.png",
+        "/assets/games/happy-place/gallery/gallery-01.png",
+        "/assets/games/happy-place/gallery/gallery-02.png",
+        "/assets/games/happy-place/gallery/gallery-03.png",
+        "/assets/games/happy-place/gallery/gallery-04.png"
+      ]
+    },
+    "hollow-zone-legacy-of-lies": {
+      "mainImage": "/assets/games/hollow-zone-legacy-of-lies/cover/cover.png",
+      "gallery": []
+    },
+    "hospital-of-hanhan": {
+      "mainImage": "/assets/games/hospital-of-hanhan/cover/cover.png",
+      "gallery": []
+    },
+    "lemon": {
+      "mainImage": "/assets/games/lemon/cover/cover.png",
+      "gallery": []
+    },
+    "place-for-children": {
+      "mainImage": "/assets/games/place-for-children/cover/cover.png",
+      "gallery": []
+    },
+    "the-hour-of-joy": {
+      "mainImage": "/assets/games/the-hour-of-joy/cover/cover.png",
+      "gallery": [
+        "/assets/games/the-hour-of-joy/hero/hero.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-01.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-02.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-03.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-04.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-05.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-06.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-07.png"
+      ]
+    },
+    "an-unknown-fall": {
+      "mainImage": "/assets/games/an-unknown-fall/cover/cover.png",
+      "gallery": []
+    },
+    "poppy-playtime-reborn": {
+      "mainImage": "/assets/games/poppy-playtime-reborn/cover/cover.png",
+      "gallery": []
+    },
+    "radiowave": {
+      "mainImage": "/assets/games/radiowave/cover/cover.png",
+      "gallery": [
+        "/assets/games/radiowave/hero/hero.png",
+        "/assets/games/radiowave/gallery/gallery-01.png"
+      ]
+    },
+    "roys-rattlers-pizza-park": {
+      "mainImage": "/assets/games/roys-rattlers-pizza-park/cover/cover.png",
+      "gallery": [
+        "/assets/games/roys-rattlers-pizza-park/hero/hero.png",
+        "/assets/games/roys-rattlers-pizza-park/gallery/gallery-01.png",
+        "/assets/games/roys-rattlers-pizza-park/gallery/gallery-02.png"
+      ]
+    },
+    "silent-mansion": {
+      "mainImage": "/assets/games/silent-mansion/cover/cover.png",
+      "gallery": [
+        "/assets/games/silent-mansion/hero/hero.png",
+        "/assets/games/silent-mansion/gallery/gallery-01.png",
+        "/assets/games/silent-mansion/gallery/gallery-02.png",
+        "/assets/games/silent-mansion/gallery/gallery-03.png",
+        "/assets/games/silent-mansion/gallery/gallery-04.png",
+        "/assets/games/silent-mansion/gallery/gallery-05.png",
+        "/assets/games/silent-mansion/gallery/gallery-06.png",
+        "/assets/games/silent-mansion/gallery/gallery-07.png",
+        "/assets/games/silent-mansion/gallery/gallery-08.png"
+      ]
+    }
+  },
+  "unsorted": [
+    "Garten Of Munke.png"
+  ],
+  "manualReview": [
+    "PLAYTIME.Co  THE HOUR OF JOY DEMO1.png -> the-hour-of-joy",
+    "PLAYTIME.Co  THE HOUR OF JOY DEMO2.png -> the-hour-of-joy",
+    "PLAYTIME.Co  THE HOUR OF JOY DEMO3.png -> the-hour-of-joy",
+    "PLAYTIME.Co  THE HOUR OF JOY DEMO4.png -> the-hour-of-joy",
+    "Poppy Playtime Chapter 0 — An Unknown Fall.png -> an-unknown-fall"
+  ]
+}
