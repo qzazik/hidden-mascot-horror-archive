@@ -68,7 +68,9 @@ const createGame = (game: Omit<Game, 'mainImage' | 'gallery' | 'ratings' | 'note
       streamVerdict: editorial.streamVerdict,
       verificationStatus: editorial.verificationStatus,
       ratingConfidence: editorial.ratingConfidence,
-      lastChecked: editorial.reviewedAt
+      lastChecked: editorial.reviewedAt,
+      archiveStatus: editorial.archiveStatus,
+      reviewProgress: editorial.reviewProgress
     } : {}),
     ratings: { ...blankRatings(), ...(editorial?.ratings ?? {}) },
     notes: `${sharedNotes}${game.notes ?? ''}`.trim()

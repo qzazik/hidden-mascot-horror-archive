@@ -5,6 +5,17 @@ export type RatingConfidence = 'high' | 'medium' | 'low';
 export type PriceType = 'free' | 'paid' | 'unknown';
 export type CurationStatus = 'approved' | 'experimental' | 'pending' | 'rejected';
 export type ContentCategory = 'hidden_gem' | 'fan_game' | 'experimental' | 'upcoming' | 'short_horror';
+export type ArchiveStatus = 'verified' | 'partially_verified' | 'queued' | 'archived' | 'unavailable' | 'cancelled';
+
+export type ReviewProgress = {
+  storePage: boolean;
+  screenshots: boolean;
+  trailer: boolean;
+  partialGameplay: boolean;
+  fullGameplay: boolean;
+  technicalState: boolean;
+  streamSuitability: boolean;
+};
 
 export type RatingSet = {
   gameplay: number | null;
@@ -35,6 +46,8 @@ export type EditorialRatingData = {
   verificationStatus: VerificationStatus;
   ratingConfidence: RatingConfidence;
   reviewedAt: string | null;
+  archiveStatus: ArchiveStatus;
+  reviewProgress: ReviewProgress;
 };
 
 export type PersonalRatingData = {
@@ -129,6 +142,12 @@ export type Game = {
   contentCategory?: ContentCategory;
   curationStatus?: CurationStatus;
   curationReason?: string | null;
+  archiveStatus?: ArchiveStatus;
+  reviewProgress?: ReviewProgress;
+  genre?: string[];
+  engine?: string | null;
+  gameSize?: string | null;
+  controllerSupport?: boolean | null;
 };
 
 export type UserGameState = {

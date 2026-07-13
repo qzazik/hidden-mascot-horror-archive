@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { calculateOverallRating, emptyRatingSet, getRatingRank, normalizeRatingSet } from './ratings';
+import { calculateOverallRating, defaultReviewProgress, deriveArchiveStatus, emptyRatingSet, getRatingRank, normalizeRatingSet } from './ratings';
 
 describe('ratings', () => {
   it('does not calculate an overall score with fewer than five criteria', () => {
@@ -21,5 +21,17 @@ describe('ratings', () => {
 
   it('keeps legacy execution as a polish fallback', () => {
     expect(normalizeRatingSet({ execution: 7 }).polish).toBe(7);
+  });
+
+  it('derives archive status without inventing verification', () => {
+    expect(deriveArchiveStatus({ status: 'cancelled', verificationStatus: 'unverified' })).toBe('cancelled');
+    expect(deriveArchiveStatus({ status: 'unknown', verificationStatus: 'partially_verified' })).toBe('partially_verified');
+    expect(deriveArchiveStatus({ status: 'unknown', verificationStatus: 'unverified' })).toBe('queued');
+  });
+
+  it('marks only locally evidenced review progress', () => {
+    expect(defaultReviewProgress({ storeUrl: null, mainImage: '/cover.png', gallery: [], trailerUrl: null })).toEqual({
+      storePage: false, screenshots: true, trailer: false, partialGameplay: false, fullGameplay: false, technicalState: false, streamSuitability: false
+    });
   });
 });

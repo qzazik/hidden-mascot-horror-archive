@@ -17,5 +17,7 @@ export function usePersonalRatings(slug: string) {
     return next;
   });
 
-  return { value, update, clear };
+  const save = (nextValue: PersonalRatingData) => setRatings((current) => ({ ...current, [slug]: nextValue }));
+
+  return { value, update, save, clear };
 }

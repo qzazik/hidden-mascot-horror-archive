@@ -11,6 +11,7 @@ import { explainCandidate } from '../utils/roulette';
 export function RoulettePage() {
   const roulette = useRoulette();
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
+  const [wheelTargetSlug, setWheelTargetSlug] = useState<string | null>(null);
   const [spinning, setSpinning] = useState(false);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [lastAppliedFilters, setLastAppliedFilters] = useState<string[]>([]);
@@ -26,6 +27,7 @@ export function RoulettePage() {
       return;
     }
     setLastAppliedFilters(result.appliedFilters);
+    setWheelTargetSlug(result.game.slug);
     window.setTimeout(() => {
       setSelectedSlug(result.game.slug);
       setSpinning(false);
@@ -67,13 +69,13 @@ export function RoulettePage() {
         </div>
 
         <div className="roulette-page__main">
-          <RouletteWheel games={roulette.pool} selectedSlug={selectedSlug} spinning={spinning} />
+          <RouletteWheel games={roulette.pool} selectedSlug={wheelTargetSlug ?? selectedSlug} spinning={spinning} />
 
           <div className="roulette-page__buttonRow">
             <button type="button" className="button button--primary" onClick={handleSpin} disabled={spinning || !roulette.hasGames}>
               {spinning ? 'Крутим...' : 'Крутить рулетку'}
             </button>
-            <button type="button" className="button button--ghost" onClick={() => setSelectedSlug(null)}>
+            <button type="button" className="button button--ghost" onClick={() => { setSelectedSlug(null); setWheelTargetSlug(null); }}>
               Сбросить выбор
             </button>
           </div>

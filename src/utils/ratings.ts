@@ -1,4 +1,4 @@
-import type { RatingConfidence, RatingSet, VerificationStatus } from '../types';
+import type { ArchiveStatus, Game, RatingConfidence, RatingSet, ReviewProgress, VerificationStatus } from '../types';
 
 export type RatingKey =
   | 'gameplay' | 'atmosphere' | 'horror' | 'story' | 'graphics' | 'sound' | 'polish'
@@ -87,3 +87,25 @@ export const verificationText: Record<VerificationStatus, string> = {
 export const formatReviewDate = (value: string | null | undefined) => value
   ? new Intl.DateTimeFormat('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(value))
   : null;
+
+export const archiveStatusText: Record<ArchiveStatus, { label: string; description: string }> = {
+  verified: { label: 'Проверено', description: 'Игра полностью изучена и оценена.' },
+  partially_verified: { label: 'Частично проверено', description: 'Просмотрены страница, материалы или часть прохождения.' },
+  queued: { label: 'В очереди', description: 'Игра добавлена, но ещё не изучена.' },
+  archived: { label: 'Архив', description: 'Старая, удалённая или историческая версия.' },
+  unavailable: { label: 'Недоступна', description: 'Страница или сборка больше не работает.' },
+  cancelled: { label: 'Отменена', description: 'Проект официально отменён.' }
+};
+
+export const deriveArchiveStatus = (game: Pick<Game, 'status' | 'verificationStatus' | 'archiveStatus'>): ArchiveStatus => {
+  if (game.archiveStatus) return game.archiveStatus;
+  if (game.status === 'cancelled') return 'cancelled';
+  if (game.verificationStatus === 'verified') return 'verified';
+  if (game.verificationStatus === 'partially_verified') return 'partially_verified';
+  return 'queued';
+};
+
+export const defaultReviewProgress = (game: Pick<Game, 'storeUrl' | 'mainImage' | 'gallery' | 'trailerUrl'>): ReviewProgress => ({
+  storePage: Boolean(game.storeUrl), screenshots: Boolean(game.mainImage || game.gallery.length), trailer: Boolean(game.trailerUrl),
+  partialGameplay: false, fullGameplay: false, technicalState: false, streamSuitability: false
+});
