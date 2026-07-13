@@ -10,13 +10,39 @@ export type RatingSet = {
   gameplay: number | null;
   atmosphere: number | null;
   horror: number | null;
+  story: number | null;
+  graphics: number | null;
+  sound: number | null;
+  polish: number | null;
   mascotDesign: number | null;
   originality: number | null;
+  replayability: number | null;
   stream: number | null;
   youtube: number | null;
   shorts: number | null;
+  /** @deprecated Use polish. Kept for existing data compatibility. */
   execution: number | null;
   overall: number | null;
+};
+
+export type EditorialRatingData = {
+  ratings: RatingSet;
+  ratingSummary: string | null;
+  strengths: string[];
+  weaknesses: string[];
+  recommendedFor: string[];
+  streamVerdict: string | null;
+  verificationStatus: VerificationStatus;
+  ratingConfidence: RatingConfidence;
+  reviewedAt: string | null;
+};
+
+export type PersonalRatingData = {
+  overall: number | null;
+  gameplay: number | null;
+  atmosphere: number | null;
+  horror: number | null;
+  stream: number | null;
 };
 
 export type FeatureSet = {
@@ -86,6 +112,11 @@ export type Game = {
   relatedGameIds: string[];
   similarGameIds: string[];
   notes?: string;
+  ratingSummary?: string | null;
+  strengths?: string[];
+  weaknesses?: string[];
+  recommendedFor?: string[];
+  streamVerdict?: string | null;
   source?: 'excel_import' | string;
   legacyRatings?: {
     streamPotential: number | null;
@@ -108,6 +139,7 @@ export type UserGameState = {
   videoReady?: boolean;
   personalRating?: number | null;
   notes?: string;
+  roulette?: boolean;
 };
 
 export type RouletteMode = 'any' | 'stream' | 'video' | 'shorts' | 'hiddenGem' | 'fanGame' | 'challenge';

@@ -1,20 +1,26 @@
 import assetReport from './asset-report.json';
-import type { Developer, FeatureSet, Game, RatingSet, Series } from '../types';
+import editorialRatingsJson from './ratings.json';
+import type { Developer, EditorialRatingData, Game, RatingSet, Series } from '../types';
+
+const editorialRatings = editorialRatingsJson as Record<string, EditorialRatingData>;
 
 const blankRatings = (): RatingSet => ({
   gameplay: null,
   atmosphere: null,
   horror: null,
+  story: null,
+  graphics: null,
+  sound: null,
+  polish: null,
   mascotDesign: null,
   originality: null,
+  replayability: null,
   stream: null,
   youtube: null,
   shorts: null,
   execution: null,
   overall: null
 });
-
-const emptyFeatures = (): FeatureSet => ({});
 
 const mediaFor = (slug: string) => {
   const entry = (assetReport as {
@@ -48,13 +54,23 @@ export const series: Series[] = [
   { id: 'series-the-hour-of-joy', slug: 'the-hour-of-joy', title: 'The Hour of Joy', description: 'Демо и основная запись по теме Hour of Joy.', sortOrder: 60 }
 ];
 
-const createGame = (game: Omit<Game, 'mainImage' | 'gallery' | 'ratings' | 'features' | 'notes'> & { notes?: string }) => {
+const createGame = (game: Omit<Game, 'mainImage' | 'gallery' | 'ratings' | 'notes'> & { notes?: string }) => {
   const media = mediaFor(game.slug);
+  const editorial = editorialRatings[game.slug];
   return {
     ...game,
     ...media,
-    ratings: blankRatings(),
-    features: emptyFeatures(),
+    ...(editorial ? {
+      ratingSummary: editorial.ratingSummary,
+      strengths: editorial.strengths,
+      weaknesses: editorial.weaknesses,
+      recommendedFor: editorial.recommendedFor,
+      streamVerdict: editorial.streamVerdict,
+      verificationStatus: editorial.verificationStatus,
+      ratingConfidence: editorial.ratingConfidence,
+      lastChecked: editorial.reviewedAt
+    } : {}),
+    ratings: { ...blankRatings(), ...(editorial?.ratings ?? {}) },
     notes: `${sharedNotes}${game.notes ?? ''}`.trim()
   };
 };

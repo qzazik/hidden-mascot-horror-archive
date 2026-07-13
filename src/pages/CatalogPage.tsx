@@ -5,6 +5,7 @@ import { SectionHeading } from '../components/SectionHeading';
 import { Tag } from '../components/Tag';
 import { games } from '../data/library';
 import { gameMatchesQuery, orderFeatured } from '../utils/library';
+import { calculateOverallRating } from '../utils/ratings';
 
 type SortKey = 'rating' | 'stream' | 'clips' | 'name' | 'recent';
 
@@ -57,8 +58,8 @@ export function CatalogPage() {
     return [...filteredByTag].sort((a, b) => {
       if (sortBy === 'name') return a.title.localeCompare(b.title, 'ru');
       if (sortBy === 'recent') return (b.releaseDate ?? '').localeCompare(a.releaseDate ?? '');
-      const ratingA = sortBy === 'stream' ? a.ratings.stream ?? -1 : sortBy === 'clips' ? a.ratings.shorts ?? -1 : a.ratings.overall ?? -1;
-      const ratingB = sortBy === 'stream' ? b.ratings.stream ?? -1 : sortBy === 'clips' ? b.ratings.shorts ?? -1 : b.ratings.overall ?? -1;
+      const ratingA = sortBy === 'stream' ? a.ratings.stream ?? -1 : sortBy === 'clips' ? a.ratings.shorts ?? -1 : calculateOverallRating(a.ratings) ?? -1;
+      const ratingB = sortBy === 'stream' ? b.ratings.stream ?? -1 : sortBy === 'clips' ? b.ratings.shorts ?? -1 : calculateOverallRating(b.ratings) ?? -1;
       return ratingB - ratingA || a.title.localeCompare(b.title, 'ru');
     });
   }, [filters, query, sortBy]);

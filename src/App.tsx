@@ -3,13 +3,14 @@ import { useEffect } from 'react';
 import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
 import { CatalogPage } from './pages/CatalogPage';
-import { GamePage } from './pages/GamePage';
+import { GameDetailsPage } from './pages/GameDetailsPage';
 import { DeveloperPage } from './pages/DeveloperPage';
 import { SeriesPage } from './pages/SeriesPage';
 import { MyListPage } from './pages/MyListPage';
 import { RoulettePage } from './pages/RoulettePage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { ImportAdminPage } from './pages/ImportAdminPage';
+import { AdminRatingsPage } from './pages/AdminRatingsPage';
 
 function RedirectBootstrap() {
   const location = useLocation();
@@ -35,12 +36,13 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/games" element={<CatalogPage />} />
-          <Route path="/games/:slug" element={<GamePage />} />
+          <Route path="/games/:slug" element={<GameDetailsPage />} />
           <Route path="/developers/:slug" element={<DeveloperPage />} />
           <Route path="/series/:slug" element={<SeriesPage />} />
           <Route path="/my-list" element={<MyListPage />} />
           <Route path="/roulette" element={<RoulettePage />} />
           <Route path="/admin/import" element={<ImportAdminPage />} />
+          <Route path="/admin/ratings" element={<AdminRatingsPage />} />
           <Route path="/catalog" element={<Navigate to="/games" replace />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

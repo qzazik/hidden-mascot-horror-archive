@@ -2,15 +2,14 @@ import { Link } from 'react-router-dom';
 import type { ReactNode } from 'react';
 import type { Game } from '../types';
 import {
-  confidenceLabel,
   formatDuration,
   formatMaybe,
-  formatRating,
   getPriceLabel,
   getTypeLabel,
-  statusLabel,
-  verificationLabel
+  statusLabel
 } from '../utils/library';
+import { calculateOverallRating, getRatingRank } from '../utils/ratings';
+import { VerificationBadge } from './ratings/VerificationBadge';
 
 type GameCardProps = {
   game: Game;
@@ -18,14 +17,20 @@ type GameCardProps = {
   compact?: boolean;
 };
 
-const ratingLine = (label: string, value: number | null) => (
+const ratingLine = (label: string, value: number) => (
   <li>
     <span>{label}</span>
-    <strong>{formatRating(value)}</strong>
+    <strong>{value.toFixed(1)}</strong>
   </li>
 );
 
 export function GameCard({ game, action, compact = false }: GameCardProps) {
+  const overall = calculateOverallRating(game.ratings);
+  const contentRatings = [
+    game.ratings.stream !== null ? { label: 'Стрим', value: game.ratings.stream } : null,
+    game.ratings.shorts !== null ? { label: 'Shorts', value: game.ratings.shorts } : null
+  ].filter((item): item is { label: string; value: number } => Boolean(item));
+
   return (
     <article className={`game-card ${compact ? 'game-card--compact' : ''}`}>
       <Link to={`/games/${game.slug}`} className="game-card__media" aria-label={`Открыть страницу игры ${game.title}`}>
@@ -42,9 +47,7 @@ export function GameCard({ game, action, compact = false }: GameCardProps) {
         <div className="game-card__topline">
           <span className="badge">{getTypeLabel(game)}</span>
           <span className="badge badge--soft">{statusLabel[game.status]}</span>
-          <span className={`badge ${game.ratingConfidence === 'high' ? 'badge--good' : ''}`}>
-            {confidenceLabel[game.ratingConfidence]}
-          </span>
+          <VerificationBadge status={game.verificationStatus} confidence={game.ratingConfidence} unrated={overall === null} />
         </div>
 
         <h3>
@@ -71,10 +74,8 @@ export function GameCard({ game, action, compact = false }: GameCardProps) {
           </div>
         </dl>
 
-        <ul className="game-card__ratings" aria-label={`Рейтинги игры ${game.title}`}>
-          {ratingLine('Стрим', game.ratings.stream)}
-          {ratingLine('Общий', game.ratings.overall)}
-        </ul>
+        {overall === null ? <div className="game-card__unrated"><strong>Без оценки</strong><span>В очереди на проверку</span></div> : <div className="game-card__score"><strong>{overall.toFixed(1)}</strong><span>Ранг {getRatingRank(overall)}</span></div>}
+        {contentRatings.length ? <ul className="game-card__ratings" aria-label={`Рейтинги игры ${game.title}`}>{contentRatings.map((item) => ratingLine(item.label, item.value))}</ul> : null}
 
         <div className="game-card__footer">
           <div className="game-card__tags">
@@ -91,9 +92,6 @@ export function GameCard({ game, action, compact = false }: GameCardProps) {
           )}
         </div>
 
-        <p className="game-card__footnote">
-          Проверка: {verificationLabel[game.verificationStatus]}
-        </p>
       </div>
     </article>
   );
