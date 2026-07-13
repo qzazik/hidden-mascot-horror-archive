@@ -959,19 +959,15 @@ button:disabled {
 
 .roulette-wheel__slot {
   position: absolute;
-  left: 50%;
-  top: 50%;
   width: 92px;
   height: 92px;
-  margin-left: -46px;
-  margin-top: -46px;
   border-radius: 18px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(0, 0, 0, 0.32);
   display: grid;
   place-items: center;
-  transform-origin: center center;
+  transform: translate(-50%, -50%);
 }
 
 .roulette-wheel__slot img {
@@ -1249,8 +1245,6 @@ button:disabled {
   .roulette-wheel__slot {
     width: 70px;
     height: 70px;
-    margin-left: -35px;
-    margin-top: -35px;
   }
 
   .roulette-history__item {
