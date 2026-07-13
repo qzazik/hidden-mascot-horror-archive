@@ -137,7 +137,7 @@ export function CatalogPage() {
         <aside className="catalog__sidebar panel">
           <div className="catalog__sidebarHead">
             <h3>Фильтры</h3>
-            <button type="button" className="button button--ghost" onClick={() => setDrawerOpen(false)}>
+            <button type="button" className="button button--ghost catalog__sidebarClose" onClick={() => setDrawerOpen(false)}>
               Закрыть
             </button>
           </div>

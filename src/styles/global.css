@@ -649,6 +649,14 @@ button:disabled {
   top: 104px;
 }
 
+.catalog__sidebarClose {
+  display: none;
+}
+
+.catalog__sidebar h3 {
+  margin: 0;
+}
+
 .catalog__sidebarHead,
 .filters__head,
 .roulette-history__head {
@@ -1857,8 +1865,7 @@ button:disabled {
   .hero,
   .game-page__hero,
   .detail-hero,
-  .roulette-page__layout,
-  .catalog__layout {
+  .roulette-page__layout {
     grid-template-columns: 1fr;
   }
 
@@ -1872,22 +1879,20 @@ button:disabled {
     justify-content: flex-start;
   }
 
-  .catalog__sidebar,
   .roulette-page__filtersWrap {
     position: static;
   }
 
-  .game-card,
-  .game-card--compact {
-    grid-template-columns: 1fr;
-  }
-
-  .game-card__media {
-    min-height: 220px;
+  .catalog .grid--cards > * {
+    grid-column: span 12;
   }
 }
 
 @media (max-width: 860px) {
+  .catalog__layout {
+    grid-template-columns: 1fr;
+  }
+
   .grid--cards > * {
     grid-column: span 12;
   }
@@ -1905,6 +1910,7 @@ button:disabled {
   }
 
   .catalog__filtersButton,
+  .catalog__sidebarClose,
   .roulette-page__mobileFilters,
   .roulette-page__close {
     display: inline-flex;
@@ -2172,6 +2178,53 @@ body::before {
 .game-card__score-tile.is-empty { background: #343740; color: #b9bdc7; }
 .game-card__score-tile.is-legacy { background: #74508c; }
 
+.catalog__layout {
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 20px;
+}
+
+.catalog__sidebar {
+  top: 88px;
+  gap: 11px;
+  padding: 15px;
+  border-radius: 9px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
+}
+
+.catalog__sidebarHead {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.catalog__sidebar label {
+  gap: 5px;
+}
+
+.catalog__sidebar label span {
+  font-size: 0.73rem;
+  font-weight: 650;
+  letter-spacing: 0.025em;
+}
+
+.catalog__sidebar select {
+  min-height: 38px;
+  padding: 0 10px;
+  border-radius: 6px;
+  font-size: 0.84rem;
+  background: #1c1e24;
+}
+
+.search-bar {
+  border-radius: 9px;
+  box-shadow: none;
+}
+
+.search-bar input,
+.search-bar select {
+  border-radius: 6px;
+  background: #1c1e24;
+}
+
 .game-score-tile--legacy {
   background: #74508c;
 }
@@ -2220,4 +2273,7 @@ body::before {
   .legacy-score__tile strong { font-size: 1.7rem; }
   .game-card__scoreboard { flex-wrap: wrap; }
   .game-card__scoreboard p { flex: 1 1 100%; margin: 2px 0 0; }
+  .game-card,
+  .game-card--compact { grid-template-columns: 1fr; }
+  .game-card__media { min-height: 220px; max-height: 310px; }
 }
