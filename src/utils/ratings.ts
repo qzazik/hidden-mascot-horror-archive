@@ -109,3 +109,9 @@ export const defaultReviewProgress = (game: Pick<Game, 'storeUrl' | 'mainImage' 
   storePage: Boolean(game.storeUrl), screenshots: Boolean(game.mainImage || game.gallery.length), trailer: Boolean(game.trailerUrl),
   partialGameplay: false, fullGameplay: false, technicalState: false, streamSuitability: false
 });
+
+export const calculateLegacyIndex = (legacy: Game['legacyRatings']) => {
+  if (!legacy) return null;
+  const values = [legacy.streamPotential, legacy.clipsPotential].filter((value): value is number => value !== null);
+  return values.length ? Math.round((values.reduce((sum, value) => sum + value, 0) / values.length) * 10) / 10 : null;
+};

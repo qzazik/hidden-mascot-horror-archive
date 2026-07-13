@@ -3,12 +3,11 @@ import type { ReactNode } from 'react';
 import type { Game } from '../types';
 import {
   formatDuration,
-  formatMaybe,
   getPriceLabel,
   getTypeLabel,
   statusLabel
 } from '../utils/library';
-import { calculateOverallRating, getRatingRank } from '../utils/ratings';
+import { calculateLegacyIndex, calculateOverallRating, getRatingRank } from '../utils/ratings';
 import { VerificationBadge } from './ratings/VerificationBadge';
 
 type GameCardProps = {
@@ -26,6 +25,13 @@ const ratingLine = (label: string, value: number) => (
 
 export function GameCard({ game, action, compact = false }: GameCardProps) {
   const overall = calculateOverallRating(game.ratings);
+  const legacyIndex = calculateLegacyIndex(game.legacyRatings);
+  const meta = [
+    game.platforms.length ? game.platforms.join(', ') : null,
+    game.priceType !== 'unknown' ? getPriceLabel(game.priceType) : null,
+    game.durationMinutes ? formatDuration(game.durationMinutes) : null,
+    game.storePlatforms.length ? game.storePlatforms.join(', ') : null
+  ].filter((item): item is string => Boolean(item));
   const contentRatings = [
     game.ratings.stream !== null ? { label: 'Стрим', value: game.ratings.stream } : null,
     game.ratings.shorts !== null ? { label: 'Shorts', value: game.ratings.shorts } : null
@@ -55,26 +61,9 @@ export function GameCard({ game, action, compact = false }: GameCardProps) {
         </h3>
         <p className="game-card__description">{game.shortDescription}</p>
 
-        <dl className="game-card__meta">
-          <div>
-            <dt>Разработчик</dt>
-            <dd>{formatMaybe(null)}</dd>
-          </div>
-          <div>
-            <dt>Платформа</dt>
-            <dd>{game.platforms.join(', ') || 'Не указано'}</dd>
-          </div>
-          <div>
-            <dt>Цена</dt>
-            <dd>{getPriceLabel(game.priceType)}</dd>
-          </div>
-          <div>
-            <dt>Длительность</dt>
-            <dd>{formatDuration(game.durationMinutes)}</dd>
-          </div>
-        </dl>
+        {meta.length ? <div className="game-card__meta-line">{meta.map((item) => <span key={item}>{item}</span>)}</div> : null}
 
-        {overall === null ? <div className="game-card__unrated"><strong>Без оценки</strong><span>В очереди на проверку</span></div> : <div className="game-card__score"><strong>{overall.toFixed(1)}</strong><span>Ранг {getRatingRank(overall)}</span></div>}
+        <div className="game-card__scoreboard"><div className={`game-card__score-tile ${overall === null ? 'is-empty' : ''}`}><strong>{overall === null ? '—' : overall.toFixed(1)}</strong><span>{overall === null ? 'Без оценки' : `Ранг ${getRatingRank(overall)}`}</span></div>{legacyIndex !== null ? <div className="game-card__score-tile is-legacy"><strong>{legacyIndex.toFixed(1)}</strong><span>Excel индекс</span></div> : null}<p>{overall === null ? 'В очереди на проверку' : 'Оценка архива'}</p></div>
         {contentRatings.length ? <ul className="game-card__ratings" aria-label={`Рейтинги игры ${game.title}`}>{contentRatings.map((item) => ratingLine(item.label, item.value))}</ul> : null}
 
         <div className="game-card__footer">

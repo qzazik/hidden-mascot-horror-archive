@@ -262,4 +262,13 @@ for (const [name, data] of Object.entries(outputs)) {
   fs.writeFileSync(path.join(publicImportDir, name), json);
 }
 
+const legacyRatingsBySlug = Object.fromEntries(records
+  .filter((record) => record.existingMatch?.slug)
+  .map((record) => [record.existingMatch.slug, {
+    ...record.legacyRatings,
+    sourceTitle: record.title,
+    importedAt: record.importedAt
+  }]));
+fs.writeFileSync(path.join(root, 'src', 'data', 'legacy-ratings.json'), `${JSON.stringify(legacyRatingsBySlug, null, 2)}\n`);
+
 console.log(JSON.stringify(report.summary, null, 2));

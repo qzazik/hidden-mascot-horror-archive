@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { calculateOverallRating, defaultReviewProgress, deriveArchiveStatus, emptyRatingSet, getRatingRank, normalizeRatingSet } from './ratings';
+import { calculateLegacyIndex, calculateOverallRating, defaultReviewProgress, deriveArchiveStatus, emptyRatingSet, getRatingRank, normalizeRatingSet } from './ratings';
 
 describe('ratings', () => {
   it('does not calculate an overall score with fewer than five criteria', () => {
@@ -33,5 +33,10 @@ describe('ratings', () => {
     expect(defaultReviewProgress({ storeUrl: null, mainImage: '/cover.png', gallery: [], trailerUrl: null })).toEqual({
       storePage: false, screenshots: true, trailer: false, partialGameplay: false, fullGameplay: false, technicalState: false, streamSuitability: false
     });
+  });
+
+  it('keeps the Excel content index separate from editorial ratings', () => {
+    expect(calculateLegacyIndex({ streamPotential: 9, clipsPotential: 8, source: 'excel_v1' })).toBe(8.5);
+    expect(calculateLegacyIndex(undefined)).toBeNull();
   });
 });

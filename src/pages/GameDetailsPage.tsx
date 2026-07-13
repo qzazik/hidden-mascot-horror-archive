@@ -15,6 +15,7 @@ import { SimilarGames } from '../components/game/SimilarGames';
 import { PersonalRating } from '../components/ratings/PersonalRating';
 import { ReviewProgress } from '../components/game/ReviewProgress';
 import { defaultReviewProgress, deriveArchiveStatus } from '../utils/ratings';
+import { LegacyScore } from '../components/ratings/LegacyScore';
 
 export const editorialStorageKey = 'hmha:editorial-ratings:v1';
 
@@ -51,6 +52,7 @@ export function GameDetailsPage() {
       <OverallRating ratings={game.ratings} verificationStatus={game.verificationStatus} ratingConfidence={game.ratingConfidence} reviewedAt={game.lastChecked} gameSlug={game.slug} archiveStatus={archiveStatus} />
       <GameInfo game={game} developerName={developer?.name ?? 'Не указано'} seriesName={seriesInfo?.title} />
     </div>
+    <LegacyScore legacyRatings={game.legacyRatings} />
     <ReviewProgress status={archiveStatus} progress={reviewProgress} />
     <RatingBreakdown ratings={game.ratings} />
     <GameVerdict game={game} />

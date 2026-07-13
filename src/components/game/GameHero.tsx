@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import type { Game, UserGameState } from '../../types';
 import { statusLabel } from '../../utils/library';
-import { archiveStatusText, calculateOverallRating, deriveArchiveStatus, getRatingRank } from '../../utils/ratings';
+import { archiveStatusText, calculateLegacyIndex, calculateOverallRating, deriveArchiveStatus, getRatingRank } from '../../utils/ratings';
 
 type Props = {
   game: Game;
@@ -16,6 +16,7 @@ export function GameHero({ game, developerName, seriesName, userState, onToggle 
   const overall = calculateOverallRating(game.ratings);
   const archiveStatus = deriveArchiveStatus(game);
   const genres = game.genre?.length ? game.genre : game.tags.slice(0, 3);
+  const legacyIndex = calculateLegacyIndex(game.legacyRatings);
   return <section className="game-hero panel">
     {heroImage ? <div className="game-hero__backdrop" style={{ backgroundImage: `url(${heroImage})` }} aria-hidden="true" /> : null}
     <div className="game-hero__shade" aria-hidden="true" />
@@ -28,6 +29,7 @@ export function GameHero({ game, developerName, seriesName, userState, onToggle 
         <p className="game-hero__lead">{game.shortDescription || game.description}</p>
         <div className="game-hero__summary">
           <div className={`game-score-tile ${overall === null ? 'game-score-tile--empty' : overall >= 8 ? 'game-score-tile--high' : overall >= 6 ? 'game-score-tile--medium' : 'game-score-tile--low'}`}><strong>{overall === null ? '—' : overall.toFixed(1)}</strong><span>{overall === null ? 'Без оценки' : `Ранг ${getRatingRank(overall)}`}</span></div>
+          {legacyIndex !== null ? <div className="game-score-tile game-score-tile--legacy"><strong>{legacyIndex.toFixed(1)}</strong><span>Excel индекс</span></div> : null}
           <div><strong>{overall === null ? 'Игра ещё не получила редакционную оценку' : 'Оценка архива'}</strong><span>{overall === null ? 'Добавлена в очередь · требуется просмотр полного геймплея' : archiveStatusText[archiveStatus].description}</span></div>
         </div>
         <div className="game-hero__genres">{genres.map((genre) => <span key={genre}>{genre}</span>)}</div>

@@ -1,8 +1,10 @@
 import assetReport from './asset-report.json';
 import editorialRatingsJson from './ratings.json';
+import legacyRatingsJson from './legacy-ratings.json';
 import type { Developer, EditorialRatingData, Game, RatingSet, Series } from '../types';
 
 const editorialRatings = editorialRatingsJson as Record<string, EditorialRatingData>;
+const legacyRatings = legacyRatingsJson as Record<string, Game['legacyRatings']>;
 
 const blankRatings = (): RatingSet => ({
   gameplay: null,
@@ -57,6 +59,7 @@ export const series: Series[] = [
 const createGame = (game: Omit<Game, 'mainImage' | 'gallery' | 'ratings' | 'notes'> & { notes?: string }) => {
   const media = mediaFor(game.slug);
   const editorial = editorialRatings[game.slug];
+  const legacy = legacyRatings[game.slug];
   return {
     ...game,
     ...media,
@@ -73,6 +76,7 @@ const createGame = (game: Omit<Game, 'mainImage' | 'gallery' | 'ratings' | 'note
       reviewProgress: editorial.reviewProgress
     } : {}),
     ratings: { ...blankRatings(), ...(editorial?.ratings ?? {}) },
+    legacyRatings: legacy,
     notes: `${sharedNotes}${game.notes ?? ''}`.trim()
   };
 };

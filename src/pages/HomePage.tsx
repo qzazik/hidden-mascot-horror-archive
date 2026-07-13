@@ -16,11 +16,11 @@ export function HomePage() {
     <div className="home">
       <section className="hero container panel">
         <div className="hero__copy">
-          <span className="hero__eyebrow">Архив mascot horror</span>
+          <span className="hero__eyebrow">Обзоры · Архив · Рулетка</span>
           <h1>Hidden Mascot Horror Archive</h1>
           <p>
-            Каталог малоизвестных mascot horror, фан-игр, демо и прототипов. В этой первой версии уже есть поиск,
-            фильтры, страницы игр, список пользователя и отдельная рулетка.
+            Каталог малоизвестных mascot horror, фан-игр, демо и прототипов. Редакционные оценки, архивные статусы,
+            потенциал для стрима и честное отделение проверенных данных от предварительных.
           </p>
           <div className="hero__actions">
             <Link to="/games" className="button button--primary">
@@ -39,6 +39,10 @@ export function HomePage() {
         </div>
 
         <div className="hero__panel">
+          <div className="hero__module hero__score-legend">
+            <div className="game-score-tile game-score-tile--empty"><strong>—</strong><span>Архив</span></div>
+            <div><span className="badge badge--accent">Система оценок</span><h2>Отделяем оценку от предположений</h2><p>Без полной проверки игра остаётся без рейтинга. Excel-индекс показывается отдельно.</p></div>
+          </div>
           <div className="hero__module">
             <span className="badge badge--accent">Нужна игра на сейчас?</span>
             <h2>Не знаешь, во что сыграть?</h2>
