@@ -2277,3 +2277,88 @@ body::before {
   .game-card--compact { grid-template-columns: 1fr; }
   .game-card__media { min-height: 220px; max-height: 310px; }
 }
+
+/* Catalog filters: compact drawer at every viewport size */
+.catalog__filtersButton {
+  display: inline-flex;
+}
+
+.catalog__layout {
+  display: block;
+}
+
+.catalog__sidebar {
+  position: fixed;
+  inset: 0 0 0 auto;
+  width: min(92vw, 460px);
+  padding: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  gap: 13px;
+  border-radius: 0;
+  border-left: 1px solid var(--line);
+  background: #13151a;
+  box-shadow: -20px 0 55px rgba(0, 0, 0, 0.48);
+  transform: translateX(105%);
+  transition: transform 0.22s ease;
+  z-index: 60;
+  overflow-y: auto;
+}
+
+.catalog__layout--open .catalog__sidebar {
+  transform: translateX(0);
+}
+
+.catalog__sidebarHead {
+  position: sticky;
+  top: -18px;
+  z-index: 2;
+  grid-column: 1 / -1;
+  align-items: center;
+  padding: 14px 0;
+  background: #13151a;
+  border-bottom: 1px solid var(--line);
+}
+
+.catalog__sidebarClose {
+  display: inline-flex;
+  min-height: 38px;
+}
+
+.catalog__sidebar label:first-of-type,
+.catalog__sidebar label:last-of-type {
+  grid-column: 1 / -1;
+}
+
+.catalog__sidebar select {
+  min-height: 40px;
+}
+
+.catalog__overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  background: rgba(0, 0, 0, 0.72);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease;
+}
+
+.catalog__layout--open .catalog__overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 560px) {
+  .catalog__sidebar {
+    width: 100vw;
+    grid-template-columns: 1fr;
+  }
+
+  .catalog__sidebar label:first-of-type,
+  .catalog__sidebar label:last-of-type,
+  .catalog__sidebarHead {
+    grid-column: auto;
+  }
+}
