@@ -1,0 +1,361 @@
+{
+  "generatedAt": "2026-07-13T07:55:50.267Z",
+  "sourceFile": "data-import/Hidden_Mascot_Horror_50_Games.xlsx",
+  "sheets": [
+    {
+      "sheet": "Каталог 50 игр",
+      "rows": 52,
+      "headerRow": 1,
+      "importedRows": 51
+    },
+    {
+      "sheet": "План контента",
+      "rows": 9,
+      "importedRows": 0,
+      "warning": "Не найдена строка заголовков игр."
+    },
+    {
+      "sheet": "Как пользоваться",
+      "rows": 9,
+      "importedRows": 0,
+      "warning": "Не найдена строка заголовков игр."
+    }
+  ],
+  "summary": {
+    "rowsFound": 51,
+    "uniqueGames": 51,
+    "existingGames": 14,
+    "recommended": 0,
+    "experimental": 7,
+    "needsReview": 30,
+    "rejected": 0,
+    "unavailable": 0,
+    "matchedImages": 57
+  },
+  "checks": {
+    "emptyTitlesSkipped": true,
+    "exactDuplicateGroups": [],
+    "versionedTitlesKeptSeparate": [
+      "The Hour Of Joy – Demo",
+      "PLAYTIME.Co: The Hour of Joy Demo",
+      "Poppy Playtime: Chapter 0 — An Unknown Fall",
+      "Poppy Playtime Chapter 4",
+      "Care Of Gongon Remake",
+      "Care Of Gongon 2 Remake",
+      "Circus of TimTim: Prologue",
+      "Happy Place: Chapter 1",
+      "RadioWave Chapter 1 Classic",
+      "FERALPALS: Chapter 1",
+      "Fluffy Buds: Chapter 1",
+      "Greg's Deadly Draft v2.0",
+      "Dilly's Daycare Chapter 2 Demo",
+      "AS LONG AS 1 REMAKE"
+    ],
+    "publicCatalogModified": false
+  },
+  "uncertain": [
+    {
+      "title": "The Hour Of Joy – Demo",
+      "sourceUrl": "https://detectivepikac2.itch.io/the-hour-of-joy-demo",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "PLAYTIME.Co: The Hour of Joy Demo",
+      "sourceUrl": "https://mognydev.itch.io/playtimeco-the-hour-of-joy-demo",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Escape from the Factory Fangame Poppy Playtime",
+      "sourceUrl": "https://simonowy2.itch.io/escape-from-the-factory-fangame-poppy-playtime",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Poppy Playtime Chapter 4",
+      "sourceUrl": "https://pizx.itch.io/poppy-playtime-chapter-4",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Care Of Gongon Remake",
+      "sourceUrl": "https://themascothorrorteam.itch.io/care-of-gongon-remake",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "В Excel игра описана как пародийная или необычная; качество сборки требует ручной проверки."
+    },
+    {
+      "title": "Care Of Gongon 2 Remake",
+      "sourceUrl": "https://themascothorrorteam.itch.io/care-of-gongon-2-remake",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Garten of Munke",
+      "sourceUrl": "https://mnkvr.itch.io/garten-of-munke",
+      "warnings": [],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Abandoned 801",
+      "sourceUrl": "https://diamond-electronics.itch.io/abandoned-801-ch1",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Goofy Party 1",
+      "sourceUrl": "https://gio14arex.itch.io/ghjjgh",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "В Excel игра описана как пародийная или необычная; качество сборки требует ручной проверки."
+    },
+    {
+      "title": "Five Nights at Puppet's Pizza",
+      "sourceUrl": "https://dcdevelopment.itch.io/five-nights-at-puppets-pizza",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Five Nights at Kit's 2",
+      "sourceUrl": "https://mrleoll.itch.io/five-nights-at-kits-2",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Super Scary Shape Office",
+      "sourceUrl": "https://carlacolon3.itch.io/super-scary-shape-office",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "В Excel игра описана как пародийная или необычная; качество сборки требует ручной проверки."
+    },
+    {
+      "title": "Minced: The Full Game",
+      "sourceUrl": "https://realgoosestudios.itch.io/minced",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Circus of TimTim: Prologue",
+      "sourceUrl": "https://mascotbrostudio.itch.io/circus-of-timtims",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Happy Place: Chapter 1",
+      "sourceUrl": "https://combobombgames.itch.io/happy-place-chapter1",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "RadioWave Chapter 1 Classic",
+      "sourceUrl": "https://redthrower-games.itch.io/radiowavechapter1",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Funler",
+      "sourceUrl": "https://foxert-studios.itch.io/funler-1",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Funler 2",
+      "sourceUrl": "https://foxert-studios.itch.io/funler-2",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "FERALPALS: Chapter 1",
+      "sourceUrl": "https://polypaw.itch.io/feralpals",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "GAME OVER",
+      "sourceUrl": "https://cosmicraycast.itch.io/gameover",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Facility of Rizriz",
+      "sourceUrl": "https://sniker-games.itch.io/facility-of-rizriz",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Fluffy Buds: Chapter 1",
+      "sourceUrl": "https://eightblackey.itch.io/fluffybuds-chapter1",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Greg's Deadly Draft v2.0",
+      "sourceUrl": "https://greg-white-shark.itch.io/gregs-deadly-draft-20",
+      "warnings": [
+        "Локальные изображения не найдены.",
+        "Найдены похожие названия; версии не объединены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Daisy Playground",
+      "sourceUrl": "https://nathanux.itch.io/daisy-playground-1",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Daisy Playground 2",
+      "sourceUrl": "https://nathanux.itch.io/daisy-playground-2",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Munkus Funkus's Jungle",
+      "sourceUrl": "https://sharpshiftdev.itch.io/munkus-funkuss-jungle",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "В Excel игра описана как пародийная или необычная; качество сборки требует ручной проверки."
+    },
+    {
+      "title": "Going On A Mascot Bear Hunt",
+      "sourceUrl": "https://themascothorrorteam.itch.io/going-on-a-mascot-bear-hunt",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "sunny.exe",
+      "sourceUrl": "https://westicles.itch.io/sunnyexe",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Dilly's Daycare Chapter 2 Demo",
+      "sourceUrl": "https://themascothorrorteam.itch.io/dillys-daycare-chapter-2-demo",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Fremmy",
+      "sourceUrl": "https://themascothorrorteam.itch.io/fremmy",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Robotic Rhino Ninja From Space",
+      "sourceUrl": "https://saikoustudios.itch.io/roboticrhinoninjafromspace",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "В Excel игра описана как пародийная или необычная; качество сборки требует ручной проверки."
+    },
+    {
+      "title": "Slashy's Hangout 2",
+      "sourceUrl": "https://toadish-studio.itch.io/slashys-hangout-2",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "В Excel игра описана как пародийная или необычная; качество сборки требует ручной проверки."
+    },
+    {
+      "title": "AS LONG AS 1 REMAKE",
+      "sourceUrl": "https://nexonzone.itch.io/as-long-as-1-remastered",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "В Excel игра описана как пародийная или необычная; качество сборки требует ручной проверки."
+    },
+    {
+      "title": "Wiggles And Friends",
+      "sourceUrl": "https://themascothorrorteam.itch.io/wiggles-and-friends",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "gulp's nightmare",
+      "sourceUrl": "https://zhaa-dev.itch.io/gulps-nightmare",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Sunny's Funtime",
+      "sourceUrl": "https://diamond-electronics.itch.io/sunny-funtime",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    },
+    {
+      "title": "Bram",
+      "sourceUrl": "https://spicybean666.itch.io/bram",
+      "warnings": [
+        "Локальные изображения не найдены."
+      ],
+      "reason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными."
+    }
+  ]
+}

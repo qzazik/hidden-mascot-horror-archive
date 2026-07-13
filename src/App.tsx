@@ -9,6 +9,7 @@ import { SeriesPage } from './pages/SeriesPage';
 import { MyListPage } from './pages/MyListPage';
 import { RoulettePage } from './pages/RoulettePage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { ImportAdminPage } from './pages/ImportAdminPage';
 
 function RedirectBootstrap() {
   const location = useLocation();
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/series/:slug" element={<SeriesPage />} />
           <Route path="/my-list" element={<MyListPage />} />
           <Route path="/roulette" element={<RoulettePage />} />
+          <Route path="/admin/import" element={<ImportAdminPage />} />
           <Route path="/catalog" element={<Navigate to="/games" replace />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

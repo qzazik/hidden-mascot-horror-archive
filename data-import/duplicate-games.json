@@ -1,0 +1,1525 @@
+[
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 2,
+    "title": "The Hour Of Joy – Demo",
+    "normalizedTitle": "the hour of joy demo",
+    "proposedSlug": "the-hour-of-joy-demo",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "demo",
+    "sourceStatus": "Демо",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая демо",
+    "tags": [
+      "Выживание",
+      "фабрика",
+      "погони"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Один из наиболее подходящих вариантов для первого стрима: узнаваемая вселенная и малоизвестная фан-игра.",
+    "sourceUrl": "https://detectivepikac2.itch.io/the-hour-of-joy-demo",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "The Hour of Joy"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 3,
+    "title": "PLAYTIME.Co: The Hour of Joy Demo",
+    "normalizedTitle": "playtime co the hour of joy demo",
+    "proposedSlug": "playtime-co-the-hour-of-joy-demo",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "demo",
+    "sourceStatus": "Демо",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Экшен",
+      "головоломки",
+      "фабрика"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Другая версия события Hour of Joy; удобно сравнить две фанатские интерпретации.",
+    "sourceUrl": "https://mognydev.itch.io/playtimeco-the-hour-of-joy-demo",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "The Hour of Joy"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 4,
+    "title": "The Hour Of Joy",
+    "normalizedTitle": "the hour of joy",
+    "proposedSlug": "the-hour-of-joy",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io",
+      "Game Jolt"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Побег",
+      "фабрика",
+      "погони"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Подойдёт для отдельного ролика о нескольких фан-играх по одному событию.",
+    "sourceUrl": "https://gameover-studios.itch.io/the-hour-of-joy",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как The Hour of Joy.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "the-hour-of-joy",
+      "title": "The Hour of Joy",
+      "developerId": "unknown",
+      "seriesId": "series-the-hour-of-joy",
+      "normalizedTitle": "the hour of joy"
+    },
+    "possibleDuplicates": [
+      "The Hour of Joy"
+    ],
+    "images": {
+      "cover": "/assets/games/the-hour-of-joy/cover/cover.png",
+      "hero": "/assets/games/the-hour-of-joy/hero/hero.png",
+      "gallery": [
+        "/assets/games/the-hour-of-joy/gallery/gallery-01.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-02.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-03.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-04.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-05.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-06.png",
+        "/assets/games/the-hour-of-joy/gallery/gallery-07.png"
+      ],
+      "matchedCount": 9
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 5,
+    "title": "Poppy Playtime: Chapter 0 — An Unknown Fall",
+    "normalizedTitle": "poppy playtime chapter 0 an unknown fall",
+    "proposedSlug": "poppy-playtime-chapter-0-an-unknown-fall",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Атмосферный приквел",
+      "исследование"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Хороший формат для короткого стрима или части сборника.",
+    "sourceUrl": "https://toastedomelet.itch.io/an-unknown-fall",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Poppy Playtime Chapter 0 - An Unknown Fall.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "an-unknown-fall",
+      "title": "Poppy Playtime Chapter 0 - An Unknown Fall",
+      "developerId": "unknown",
+      "seriesId": "series-poppy-playtime",
+      "normalizedTitle": "poppy playtime chapter 0 an unknown fall"
+    },
+    "possibleDuplicates": [
+      "Poppy Playtime Chapter 0 - An Unknown Fall"
+    ],
+    "images": {
+      "cover": "/assets/games/an-unknown-fall/cover/cover.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 6,
+    "title": "Poppy Playtime Reborn",
+    "normalizedTitle": "poppy playtime reborn",
+    "proposedSlug": "poppy-playtime-reborn",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "in_development",
+    "sourceStatus": "Проект/ремейк",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Ремейк",
+      "исследование"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Можно использовать в видео о фанатских ремейках.",
+    "sourceUrl": "https://doomskulltid.itch.io/poppy-playtime-reborn",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Poppy Playtime Reborn.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "poppy-playtime-reborn",
+      "title": "Poppy Playtime Reborn",
+      "developerId": "unknown",
+      "seriesId": "series-poppy-playtime",
+      "normalizedTitle": "poppy playtime reborn"
+    },
+    "possibleDuplicates": [
+      "Poppy Playtime Reborn"
+    ],
+    "images": {
+      "cover": "/assets/games/poppy-playtime-reborn/cover/cover.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 8,
+    "title": "Poppy Playtime Chapter 4",
+    "normalizedTitle": "poppy playtime chapter 4",
+    "proposedSlug": "poppy-playtime-chapter-4",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "in_development",
+    "sourceStatus": "Фан-глава",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Приключение",
+      "фанатская глава"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Лучше использовать в сравнительном видео, а не как главный стрим.",
+    "sourceUrl": "https://pizx.itch.io/poppy-playtime-chapter-4",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Poppy Playtime Reborn",
+      "Poppy Playtime Chapter 0 - An Unknown Fall"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 9,
+    "title": "Care Of Gongon Remake",
+    "normalizedTitle": "care of gongon remake",
+    "proposedSlug": "care-of-gongon-remake",
+    "type": "fan_game",
+    "fanUniverse": "Garten of Banban",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Приключение",
+      "пародийный фан-проект"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Узнаваемая основа и редкая игра — хороший материал для клипов.",
+    "sourceUrl": "https://themascothorrorteam.itch.io/care-of-gongon-remake",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": "experimental",
+    "curationStatus": "experimental",
+    "curationReason": "В Excel игра описана как пародийная или необычная; качество сборки требует ручной проверки.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Care of Gongon"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "experimental"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 10,
+    "title": "Care Of Gongon 2 Remake",
+    "normalizedTitle": "care of gongon 2 remake",
+    "proposedSlug": "care-of-gongon-2-remake",
+    "type": "fan_game",
+    "fanUniverse": "Garten of Banban",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Продолжение",
+      "приключение"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Можно пройти вместе с первой частью на одном стриме.",
+    "sourceUrl": "https://themascothorrorteam.itch.io/care-of-gongon-2-remake",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Care of Gongon"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 11,
+    "title": "Hospital of HanHan",
+    "normalizedTitle": "hospital of hanhan",
+    "proposedSlug": "hospital-of-hanhan",
+    "type": "fan_game",
+    "fanUniverse": "Garten of Banban",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Больница",
+      "выживание"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Странная и мемная концепция подходит для эмоциональной подачи.",
+    "sourceUrl": "https://newplayer17.itch.io/hospital-of-hanhan",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Hospital of HanHan.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "hospital-of-hanhan",
+      "title": "Hospital of HanHan",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "hospital of hanhan"
+    },
+    "possibleDuplicates": [
+      "Hospital of HanHan"
+    ],
+    "images": {
+      "cover": "/assets/games/hospital-of-hanhan/cover/cover.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 12,
+    "title": "Care of Dandan",
+    "normalizedTitle": "care of dandan",
+    "proposedSlug": "care-of-dandan",
+    "type": "fan_game",
+    "fanUniverse": "Garten of Banban",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Детский сад",
+      "головоломки"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Свежий небольшой проект; может дать смешные клипы и реакции.",
+    "sourceUrl": "https://mousestudios.itch.io/care-of-dandan",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Care of Dandan.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "care-of-dandan",
+      "title": "Care of Dandan",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "care of dandan"
+    },
+    "possibleDuplicates": [
+      "Care of Dandan"
+    ],
+    "images": {
+      "cover": "/assets/games/care-of-dandan/cover/cover.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 19,
+    "title": "Roy Rattler's Pizza Park",
+    "normalizedTitle": "roy rattlers pizza park",
+    "proposedSlug": "roy-rattlers-pizza-park",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "in_development",
+    "sourceStatus": "В разработке",
+    "priceType": "unknown",
+    "sourcePrice": "Страница проекта",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Демо ожидается/проверить",
+    "tags": [
+      "Survival horror",
+      "оружие",
+      "связанная карта"
+    ],
+    "legacyRatings": {
+      "streamPotential": 10,
+      "clipsPotential": 10,
+      "source": "excel_v1"
+    },
+    "comment": "Самый перспективный проект для отслеживания; проверить наличие актуальной сборки перед стримом.",
+    "sourceUrl": "https://kaijuultimax.itch.io/roy-rattlers-pizza-park",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Roy Rattler's Pizza Park.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "roys-rattlers-pizza-park",
+      "title": "Roy Rattler's Pizza Park",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "roy rattlers pizza park"
+    },
+    "possibleDuplicates": [
+      "Roy Rattler's Pizza Park"
+    ],
+    "images": {
+      "cover": "/assets/games/roys-rattlers-pizza-park/cover/cover.png",
+      "hero": "/assets/games/roys-rattlers-pizza-park/hero/hero.png",
+      "gallery": [
+        "/assets/games/roys-rattlers-pizza-park/gallery/gallery-01.png",
+        "/assets/games/roys-rattlers-pizza-park/gallery/gallery-02.png"
+      ],
+      "matchedCount": 4
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 21,
+    "title": "BOKKIE",
+    "normalizedTitle": "bokkie",
+    "proposedSlug": "bokkie",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Школа",
+      "фабрика игрушек",
+      "головоломки"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Подходит для полноценного короткого стрима.",
+    "sourceUrl": "https://ajbstudio.itch.io/bokkie",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как BOKKIE.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "bokkie",
+      "title": "BOKKIE",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "bokkie"
+    },
+    "possibleDuplicates": [
+      "BOKKIE"
+    ],
+    "images": {
+      "cover": "/assets/games/bokkie/cover/cover.png",
+      "hero": "/assets/games/bokkie/hero/hero.png",
+      "gallery": [
+        "/assets/games/bokkie/gallery/gallery-01.png",
+        "/assets/games/bokkie/gallery/gallery-02.png",
+        "/assets/games/bokkie/gallery/gallery-03.png",
+        "/assets/games/bokkie/gallery/gallery-04.png",
+        "/assets/games/bokkie/gallery/gallery-05.png",
+        "/assets/games/bokkie/gallery/gallery-06.png",
+        "/assets/games/bokkie/gallery/gallery-07.png",
+        "/assets/games/bokkie/gallery/gallery-08.png",
+        "/assets/games/bokkie/gallery/gallery-09.png",
+        "/assets/games/bokkie/gallery/gallery-10.png",
+        "/assets/games/bokkie/gallery/gallery-11.png",
+        "/assets/games/bokkie/gallery/gallery-12.png",
+        "/assets/games/bokkie/gallery/gallery-13.png",
+        "/assets/games/bokkie/gallery/gallery-14.png",
+        "/assets/games/bokkie/gallery/gallery-15.png"
+      ],
+      "matchedCount": 17
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 22,
+    "title": "Circus of TimTim: Prologue",
+    "normalizedTitle": "circus of timtim prologue",
+    "proposedSlug": "circus-of-timtim-prologue",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "prologue",
+    "sourceStatus": "Пролог",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Цирк",
+      "стелс",
+      "враги реагируют на звук"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Очень удобна для стрима: понятная цель и напряжённые моменты.",
+    "sourceUrl": "https://mascotbrostudio.itch.io/circus-of-timtims",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Circus of TimTim"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 23,
+    "title": "Happy Place: Chapter 1",
+    "normalizedTitle": "happy place chapter 1",
+    "proposedSlug": "happy-place-chapter-1",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "unknown",
+    "sourceStatus": "Глава 1",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Парк развлечений",
+      "психологический хоррор"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Хорошие локации и атмосфера для длинного видео.",
+    "sourceUrl": "https://combobombgames.itch.io/happy-place-chapter1",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Happy Place"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 24,
+    "title": "RadioWave",
+    "normalizedTitle": "radiowave",
+    "proposedSlug": "radiowave",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Роботы",
+      "лабиринты",
+      "головоломки"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Хорошо подходит для рубрики о забытых mascot horror.",
+    "sourceUrl": "https://redthrower-games.itch.io/radiowave",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как RadioWave.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "radiowave",
+      "title": "RadioWave",
+      "developerId": "unknown",
+      "seriesId": "series-radiowave",
+      "normalizedTitle": "radiowave"
+    },
+    "possibleDuplicates": [
+      "RadioWave"
+    ],
+    "images": {
+      "cover": "/assets/games/radiowave/cover/cover.png",
+      "hero": "/assets/games/radiowave/hero/hero.png",
+      "gallery": [
+        "/assets/games/radiowave/gallery/gallery-01.png"
+      ],
+      "matchedCount": 3
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 25,
+    "title": "RadioWave Chapter 1 Classic",
+    "normalizedTitle": "radiowave chapter 1 classic",
+    "proposedSlug": "radiowave-chapter-1-classic",
+    "type": "original",
+    "fanUniverse": "RadioWave",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "unknown",
+    "sourceStatus": "Старая версия",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Лабиринты",
+      "преследование"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Интересно сравнить старую и новую версии в одном видео.",
+    "sourceUrl": "https://redthrower-games.itch.io/radiowavechapter1",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "RadioWave"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 26,
+    "title": "Goopy's Industries",
+    "normalizedTitle": "goopys industries",
+    "proposedSlug": "goopys-industries",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Промышленность",
+      "слизь",
+      "исследование"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Запоминающаяся тема и хороший потенциал для обложки.",
+    "sourceUrl": "https://redthrower-games.itch.io/gloop-industries",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Goopy's Industries.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "goopys-industries",
+      "title": "Goopy's Industries",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "goopys industries"
+    },
+    "possibleDuplicates": [
+      "Goopy's Industries"
+    ],
+    "images": {
+      "cover": "/assets/games/goopys-industries/cover/cover.png",
+      "hero": "/assets/games/goopys-industries/hero/hero.png",
+      "gallery": [],
+      "matchedCount": 2
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 31,
+    "title": "Place For Children",
+    "normalizedTitle": "place for children",
+    "proposedSlug": "place-for-children",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Пародия на клише жанра"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Отличный вариант для смешного ролика с разбором штампов.",
+    "sourceUrl": "https://disaster-microwave-games.itch.io/placeforchildren",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Place For Children.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "place-for-children",
+      "title": "Place For Children",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "place for children"
+    },
+    "possibleDuplicates": [
+      "Place For Children"
+    ],
+    "images": {
+      "cover": "/assets/games/place-for-children/cover/cover.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 34,
+    "title": "Bad Toys: The Other Mission",
+    "normalizedTitle": "bad toys the other mission",
+    "proposedSlug": "bad-toys-the-other-mission",
+    "type": "fan_game",
+    "fanUniverse": "Bad Toys 3D",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "demo",
+    "sourceStatus": "Демо",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "8 уровней в демо",
+    "tags": [
+      "Ретро-шутер",
+      "фабрика игрушек"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Необычная смесь ретро-FPS и mascot horror.",
+    "sourceUrl": "https://wicked-figs.itch.io/bad-toys-the-other-mission-demo",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Bad Toys: The Other Mission.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "bad-toys-the-other-mission",
+      "title": "Bad Toys: The Other Mission",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "bad toys the other mission"
+    },
+    "possibleDuplicates": [
+      "Bad Toys: The Other Mission"
+    ],
+    "images": {
+      "cover": "/assets/games/bad-toys-the-other-mission/cover/cover.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 35,
+    "title": "Greg's Deadly Draft v2.0",
+    "normalizedTitle": "gregs deadly draft v2 0",
+    "proposedSlug": "gregs-deadly-draft-v2-0",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io",
+      "Steam"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "paid",
+    "sourcePrice": "Платно, есть демо",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Около часа",
+    "tags": [
+      "Спортивный маскот",
+      "комедия",
+      "выживание"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Очень хороший материал для клипов благодаря необычному футбольному маскоту.",
+    "sourceUrl": "https://greg-white-shark.itch.io/gregs-deadly-draft-20",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Greg's Deadly Draft"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 36,
+    "title": "Baby Blues Nightmares",
+    "normalizedTitle": "baby blues nightmares",
+    "proposedSlug": "baby-blues-nightmares",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io",
+      "Steam"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "paid",
+    "sourcePrice": "Платно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Ребёнок на трёхколёсном велосипеде",
+      "игрушки"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Очень необычная перспектива и сильные реакции для стрима.",
+    "sourceUrl": "https://steelkrill.itch.io/baby-blues-nightmares-full-game",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Baby Blues Nightmares.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "baby-blues-nightmares",
+      "title": "Baby Blues Nightmares",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "baby blues nightmares"
+    },
+    "possibleDuplicates": [
+      "Baby Blues Nightmares"
+    ],
+    "images": {
+      "cover": "/assets/games/baby-blues-nightmares/cover/cover.png",
+      "hero": "/assets/games/baby-blues-nightmares/hero/hero.png",
+      "gallery": [
+        "/assets/games/baby-blues-nightmares/gallery/gallery-01.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-02.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-03.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-04.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-05.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-06.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-07.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-08.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-09.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-10.png",
+        "/assets/games/baby-blues-nightmares/gallery/gallery-11.png"
+      ],
+      "matchedCount": 13
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 44,
+    "title": "Lemon.",
+    "normalizedTitle": "lemon",
+    "proposedSlug": "lemon",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Странный маскот-лимон",
+      "выживание"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Сильное название и абсурдный герой подходят для вирусного клипа.",
+    "sourceUrl": "https://redthrower-games.itch.io/lemon",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Lemon..",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "lemon",
+      "title": "Lemon.",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "lemon"
+    },
+    "possibleDuplicates": [
+      "Lemon."
+    ],
+    "images": {
+      "cover": "/assets/games/lemon/cover/cover.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "duplicate"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 45,
+    "title": "Hollow Zone: Legacy of Lies",
+    "normalizedTitle": "hollow zone legacy of lies",
+    "proposedSlug": "hollow-zone-legacy-of-lies",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Расследование",
+      "поиск доказательств"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Хорошо для более спокойного сюжетного стрима.",
+    "sourceUrl": "https://arcvale-games.itch.io/hollow-zone",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Игра уже присутствует в каталоге как Hollow Zone: Legacy of Lies.",
+    "warnings": [],
+    "existingMatch": {
+      "slug": "hollow-zone-legacy-of-lies",
+      "title": "Hollow Zone: Legacy of Lies",
+      "developerId": "unknown",
+      "seriesId": null,
+      "normalizedTitle": "hollow zone legacy of lies"
+    },
+    "possibleDuplicates": [
+      "Hollow Zone: Legacy of Lies"
+    ],
+    "images": {
+      "cover": "/assets/games/hollow-zone-legacy-of-lies/cover/cover.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "duplicate"
+  }
+]

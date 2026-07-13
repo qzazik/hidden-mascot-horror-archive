@@ -33,13 +33,18 @@ export function CatalogPage() {
     platform: 'all',
     source: 'all',
     price: 'all',
-    tag: 'all'
+    tag: 'all',
+    curation: 'approved'
   });
 
   const filtered = useMemo(() => {
     const source = orderFeatured(games);
     const base = source.filter((game) => gameMatchesQuery(game, query));
     const filteredByTag = base.filter((game) => {
+      const curationStatus = game.curationStatus ?? 'approved';
+      if (curationStatus === 'pending' || curationStatus === 'rejected') return false;
+      if (filters.curation === 'approved' && curationStatus !== 'approved') return false;
+      if (filters.curation === 'experimental' && curationStatus !== 'experimental') return false;
       if (filters.type !== 'all' && game.type !== filters.type) return false;
       if (filters.status !== 'all' && game.status !== filters.status) return false;
       if (filters.platform !== 'all' && !game.platforms.includes(filters.platform)) return false;
@@ -64,7 +69,10 @@ export function CatalogPage() {
     filters.platform !== 'all' ? { label: `платформа: ${filters.platform}`, remove: () => setFilters({ ...filters, platform: 'all' }) } : null,
     filters.source !== 'all' ? { label: `магазин: ${filters.source}`, remove: () => setFilters({ ...filters, source: 'all' }) } : null,
     filters.price !== 'all' ? { label: `цена: ${filters.price}`, remove: () => setFilters({ ...filters, price: 'all' }) } : null,
-    filters.tag !== 'all' ? { label: `тег: ${filters.tag}`, remove: () => setFilters({ ...filters, tag: 'all' }) } : null
+    filters.tag !== 'all' ? { label: `тег: ${filters.tag}`, remove: () => setFilters({ ...filters, tag: 'all' }) } : null,
+    filters.curation === 'experimental'
+      ? { label: 'странные и экспериментальные', remove: () => setFilters({ ...filters, curation: 'approved' }) }
+      : null
   ].filter((item): item is { label: string; remove: () => void } => Boolean(item));
 
   const reset = () => {
@@ -76,7 +84,8 @@ export function CatalogPage() {
       platform: 'all',
       source: 'all',
       price: 'all',
-      tag: 'all'
+      tag: 'all',
+      curation: 'approved'
     });
   };
 
@@ -131,6 +140,14 @@ export function CatalogPage() {
               Закрыть
             </button>
           </div>
+
+          <label>
+            <span>Качество отбора</span>
+            <select value={filters.curation} onChange={(event) => setFilters({ ...filters, curation: event.target.value })}>
+              <option value="approved">Отобранные игры</option>
+              <option value="experimental">Странные и экспериментальные</option>
+            </select>
+          </label>
 
           <label>
             <span>Тип</span>
@@ -197,6 +214,13 @@ export function CatalogPage() {
         </aside>
 
         <section className="catalog__results">
+          {filters.curation === 'experimental' ? (
+            <div className="experimental-note panel">
+              <span className="badge badge--accent">Экспериментальная подборка</span>
+              <h2>Может быть плохо, но интересно</h2>
+              <p>Мемные, странные или неровные игры, которые могут дать хороший материал для стрима.</p>
+            </div>
+          ) : null}
           <div className="grid grid--cards">
             {filtered.map((game) => (
               <GameCard key={game.slug} game={game} />

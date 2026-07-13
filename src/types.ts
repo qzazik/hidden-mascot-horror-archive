@@ -3,6 +3,8 @@ export type GameStatus = 'release' | 'demo' | 'in_development' | 'cancelled' | '
 export type VerificationStatus = 'verified' | 'partially_verified' | 'unverified';
 export type RatingConfidence = 'high' | 'medium' | 'low';
 export type PriceType = 'free' | 'paid' | 'unknown';
+export type CurationStatus = 'approved' | 'experimental' | 'pending' | 'rejected';
+export type ContentCategory = 'hidden_gem' | 'fan_game' | 'experimental' | 'upcoming' | 'short_horror';
 
 export type RatingSet = {
   gameplay: number | null;
@@ -84,6 +86,18 @@ export type Game = {
   relatedGameIds: string[];
   similarGameIds: string[];
   notes?: string;
+  source?: 'excel_import' | string;
+  legacyRatings?: {
+    streamPotential: number | null;
+    clipsPotential: number | null;
+    source: 'excel_v1';
+  };
+  editorialRatings?: RatingSet | null;
+  importedAt?: string;
+  needsManualReview?: boolean;
+  contentCategory?: ContentCategory;
+  curationStatus?: CurationStatus;
+  curationReason?: string | null;
 };
 
 export type UserGameState = {

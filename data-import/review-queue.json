@@ -1,0 +1,1808 @@
+[
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 2,
+    "title": "The Hour Of Joy – Demo",
+    "normalizedTitle": "the hour of joy demo",
+    "proposedSlug": "the-hour-of-joy-demo",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "demo",
+    "sourceStatus": "Демо",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая демо",
+    "tags": [
+      "Выживание",
+      "фабрика",
+      "погони"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Один из наиболее подходящих вариантов для первого стрима: узнаваемая вселенная и малоизвестная фан-игра.",
+    "sourceUrl": "https://detectivepikac2.itch.io/the-hour-of-joy-demo",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "The Hour of Joy"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 3,
+    "title": "PLAYTIME.Co: The Hour of Joy Demo",
+    "normalizedTitle": "playtime co the hour of joy demo",
+    "proposedSlug": "playtime-co-the-hour-of-joy-demo",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "demo",
+    "sourceStatus": "Демо",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Экшен",
+      "головоломки",
+      "фабрика"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Другая версия события Hour of Joy; удобно сравнить две фанатские интерпретации.",
+    "sourceUrl": "https://mognydev.itch.io/playtimeco-the-hour-of-joy-demo",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "The Hour of Joy"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 7,
+    "title": "Escape from the Factory Fangame Poppy Playtime",
+    "normalizedTitle": "escape from the factory fangame poppy playtime",
+    "proposedSlug": "escape-from-the-factory-fangame-poppy-playtime",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Побег после Hour of Joy"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Небольшая игра, удобная для подборки из 3–5 проектов.",
+    "sourceUrl": "https://simonowy2.itch.io/escape-from-the-factory-fangame-poppy-playtime",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 8,
+    "title": "Poppy Playtime Chapter 4",
+    "normalizedTitle": "poppy playtime chapter 4",
+    "proposedSlug": "poppy-playtime-chapter-4",
+    "type": "fan_game",
+    "fanUniverse": "Poppy Playtime",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "in_development",
+    "sourceStatus": "Фан-глава",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Приключение",
+      "фанатская глава"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Лучше использовать в сравнительном видео, а не как главный стрим.",
+    "sourceUrl": "https://pizx.itch.io/poppy-playtime-chapter-4",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Poppy Playtime Reborn",
+      "Poppy Playtime Chapter 0 - An Unknown Fall"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 10,
+    "title": "Care Of Gongon 2 Remake",
+    "normalizedTitle": "care of gongon 2 remake",
+    "proposedSlug": "care-of-gongon-2-remake",
+    "type": "fan_game",
+    "fanUniverse": "Garten of Banban",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Продолжение",
+      "приключение"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Можно пройти вместе с первой частью на одном стриме.",
+    "sourceUrl": "https://themascothorrorteam.itch.io/care-of-gongon-2-remake",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Care of Gongon"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 13,
+    "title": "Garten of Munke",
+    "normalizedTitle": "garten of munke",
+    "proposedSlug": "garten-of-munke",
+    "type": "fan_game",
+    "fanUniverse": "Garten of Banban / Gorilla Tag",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "VR",
+      "Android APK"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "VR",
+      "физическое перемещение"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Необычный VR-формат; нужен совместимый шлем.",
+    "sourceUrl": "https://mnkvr.itch.io/garten-of-munke",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": "/assets/unsorted/Garten Of Munke.png",
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 1
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 14,
+    "title": "Abandoned 801",
+    "normalizedTitle": "abandoned 801",
+    "proposedSlug": "abandoned-801",
+    "type": "fan_game",
+    "fanUniverse": "Sussy Schoolgrounds",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Браузер"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Музей",
+      "сбор предметов",
+      "погоня"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Легко запустить прямо в браузере; удобно для стрима-подборки.",
+    "sourceUrl": "https://diamond-electronics.itch.io/abandoned-801-ch1",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 16,
+    "title": "Five Nights at Puppet's Pizza",
+    "normalizedTitle": "five nights at puppets pizza",
+    "proposedSlug": "five-nights-at-puppets-pizza",
+    "type": "fan_game",
+    "fanUniverse": "Five Nights at Freddy's",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Классический FNaF-геймплей"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Хороша для юбилейной или тематической подборки фан-игр.",
+    "sourceUrl": "https://dcdevelopment.itch.io/five-nights-at-puppets-pizza",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 17,
+    "title": "Five Nights at Kit's 2",
+    "normalizedTitle": "five nights at kits 2",
+    "proposedSlug": "five-nights-at-kits-2",
+    "type": "fan_game",
+    "fanUniverse": "Five Nights at Freddy's",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Браузер"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "2D",
+      "шутер",
+      "выживание"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Необычный формат для FNaF-фан-игры.",
+    "sourceUrl": "https://mrleoll.itch.io/five-nights-at-kits-2",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 20,
+    "title": "Minced: The Full Game",
+    "normalizedTitle": "minced the full game",
+    "proposedSlug": "minced-the-full-game",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "unknown",
+    "sourcePrice": "Проверить на странице",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Мясокомбинат",
+      "постоянная погоня"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Сильная идея и спорный геймплей — хороший материал для разбора.",
+    "sourceUrl": "https://realgoosestudios.itch.io/minced",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 22,
+    "title": "Circus of TimTim: Prologue",
+    "normalizedTitle": "circus of timtim prologue",
+    "proposedSlug": "circus-of-timtim-prologue",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "prologue",
+    "sourceStatus": "Пролог",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Цирк",
+      "стелс",
+      "враги реагируют на звук"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Очень удобна для стрима: понятная цель и напряжённые моменты.",
+    "sourceUrl": "https://mascotbrostudio.itch.io/circus-of-timtims",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Circus of TimTim"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 23,
+    "title": "Happy Place: Chapter 1",
+    "normalizedTitle": "happy place chapter 1",
+    "proposedSlug": "happy-place-chapter-1",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "unknown",
+    "sourceStatus": "Глава 1",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Парк развлечений",
+      "психологический хоррор"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Хорошие локации и атмосфера для длинного видео.",
+    "sourceUrl": "https://combobombgames.itch.io/happy-place-chapter1",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Happy Place"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 25,
+    "title": "RadioWave Chapter 1 Classic",
+    "normalizedTitle": "radiowave chapter 1 classic",
+    "proposedSlug": "radiowave-chapter-1-classic",
+    "type": "original",
+    "fanUniverse": "RadioWave",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "unknown",
+    "sourceStatus": "Старая версия",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Лабиринты",
+      "преследование"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Интересно сравнить старую и новую версии в одном видео.",
+    "sourceUrl": "https://redthrower-games.itch.io/radiowavechapter1",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "RadioWave"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 27,
+    "title": "Funler",
+    "normalizedTitle": "funler",
+    "proposedSlug": "funler",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Несколько минут",
+    "tags": [
+      "Игровой центр",
+      "шутер",
+      "головоломки"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Очень короткая — лучше объединить с другими играми в один стрим.",
+    "sourceUrl": "https://foxert-studios.itch.io/funler-1",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 28,
+    "title": "Funler 2",
+    "normalizedTitle": "funler 2",
+    "proposedSlug": "funler-2",
+    "type": "original",
+    "fanUniverse": "Funler",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Короткий mascot horror"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Можно пройти обе части подряд.",
+    "sourceUrl": "https://foxert-studios.itch.io/funler-2",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 29,
+    "title": "FERALPALS: Chapter 1",
+    "normalizedTitle": "feralpals chapter 1",
+    "proposedSlug": "feralpals-chapter-1",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "unknown",
+    "sourceStatus": "Глава 1",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "30–45 минут",
+    "tags": [
+      "Сюжетный",
+      "глава",
+      "несколько языков"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Есть русский язык; один из лучших вариантов для первого выпуска.",
+    "sourceUrl": "https://polypaw.itch.io/feralpals",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 30,
+    "title": "GAME OVER",
+    "normalizedTitle": "game over",
+    "proposedSlug": "game-over",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "unknown",
+    "sourceStatus": "Глава 1 / game jam",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Исследование",
+      "mascot horror jam"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Свежий джем-проект, который мало кто успел снять.",
+    "sourceUrl": "https://cosmicraycast.itch.io/gameover",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.235Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 32,
+    "title": "Facility of Rizriz",
+    "normalizedTitle": "facility of rizriz",
+    "proposedSlug": "facility-of-rizriz",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Дрон",
+      "головоломки",
+      "комплекс"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Мобильная и ПК-версия; интересная механика с дроном.",
+    "sourceUrl": "https://sniker-games.itch.io/facility-of-rizriz",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 33,
+    "title": "Fluffy Buds: Chapter 1",
+    "normalizedTitle": "fluffy buds chapter 1",
+    "proposedSlug": "fluffy-buds-chapter-1",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "early_access",
+    "sourceStatus": "Ранний доступ",
+    "priceType": "paid",
+    "sourcePrice": "Платно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Не указана",
+    "tags": [
+      "Головоломки",
+      "милые маскоты",
+      "сущности"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Стоит снимать после проверки оптимизации и качества сборки.",
+    "sourceUrl": "https://eightblackey.itch.io/fluffybuds-chapter1",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 35,
+    "title": "Greg's Deadly Draft v2.0",
+    "normalizedTitle": "gregs deadly draft v2 0",
+    "proposedSlug": "gregs-deadly-draft-v2-0",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io",
+      "Steam"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "paid",
+    "sourcePrice": "Платно, есть демо",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Около часа",
+    "tags": [
+      "Спортивный маскот",
+      "комедия",
+      "выживание"
+    ],
+    "legacyRatings": {
+      "streamPotential": 9,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Очень хороший материал для клипов благодаря необычному футбольному маскоту.",
+    "sourceUrl": "https://greg-white-shark.itch.io/gregs-deadly-draft-20",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены.",
+      "Найдены похожие названия; версии не объединены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [
+      "Greg's Deadly Draft"
+    ],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 37,
+    "title": "Daisy Playground",
+    "normalizedTitle": "daisy playground",
+    "proposedSlug": "daisy-playground",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Заброшенная игровая площадка"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Неплохая игра для стартовой подборки hidden gems.",
+    "sourceUrl": "https://nathanux.itch.io/daisy-playground-1",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 38,
+    "title": "Daisy Playground 2",
+    "normalizedTitle": "daisy playground 2",
+    "proposedSlug": "daisy-playground-2",
+    "type": "original",
+    "fanUniverse": "Daisy Playground",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Продолжение",
+      "исследование"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Лучше проходить после первой части на одном стриме.",
+    "sourceUrl": "https://nathanux.itch.io/daisy-playground-2",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 40,
+    "title": "Going On A Mascot Bear Hunt",
+    "normalizedTitle": "going on a mascot bear hunt",
+    "proposedSlug": "going-on-a-mascot-bear-hunt",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Хоррор-версия детской песни"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Необычная тема, легко объяснить зрителям в названии ролика.",
+    "sourceUrl": "https://themascothorrorteam.itch.io/going-on-a-mascot-bear-hunt",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 41,
+    "title": "sunny.exe",
+    "normalizedTitle": "sunny exe",
+    "proposedSlug": "sunny-exe",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Браузер"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "ИИ-ассистент",
+      "интерактивная история"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 9,
+      "source": "excel_v1"
+    },
+    "comment": "Современная тема ИИ может хорошо работать в Shorts.",
+    "sourceUrl": "https://westicles.itch.io/sunnyexe",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 42,
+    "title": "Dilly's Daycare Chapter 2 Demo",
+    "normalizedTitle": "dillys daycare chapter 2 demo",
+    "proposedSlug": "dillys-daycare-chapter-2-demo",
+    "type": "original",
+    "fanUniverse": "Dilly's Daycare",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "demo",
+    "sourceStatus": "Демо",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Детский центр",
+      "приключение"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Подойдёт для сборного стрима из нескольких демо.",
+    "sourceUrl": "https://themascothorrorteam.itch.io/dillys-daycare-chapter-2-demo",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 43,
+    "title": "Fremmy",
+    "normalizedTitle": "fremmy",
+    "proposedSlug": "fremmy",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Браузер",
+      "текст"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Текстовый ретро-mascot horror"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Редкий текстовый формат, можно подать как экспериментальный выпуск.",
+    "sourceUrl": "https://themascothorrorteam.itch.io/fremmy",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 49,
+    "title": "Wiggles And Friends",
+    "normalizedTitle": "wiggles and friends",
+    "proposedSlug": "wiggles-and-friends",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно / donation",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "До часа по описанию обновления",
+    "tags": [
+      "Потерянный мультфильм",
+      "VHS",
+      "подземелье"
+    ],
+    "legacyRatings": {
+      "streamPotential": 8,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Хороший вариант для атмосферного видео о забытом мультсериале.",
+    "sourceUrl": "https://themascothorrorteam.itch.io/wiggles-and-friends",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 50,
+    "title": "gulp's nightmare",
+    "normalizedTitle": "gulps nightmare",
+    "proposedSlug": "gulps-nightmare",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "unknown",
+    "sourceStatus": "Game jam / эксперимент",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Очень короткая",
+    "tags": [
+      "Сделано за час",
+      "психологический хоррор"
+    ],
+    "legacyRatings": {
+      "streamPotential": 6,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Можно использовать как короткую вставку в большой стрим.",
+    "sourceUrl": "https://zhaa-dev.itch.io/gulps-nightmare",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 51,
+    "title": "Sunny's Funtime",
+    "normalizedTitle": "sunnys funtime",
+    "proposedSlug": "sunnys-funtime",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Заброшенная фабрика игрушек"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 7,
+      "source": "excel_v1"
+    },
+    "comment": "Классическая формула жанра; подойдёт для сравнения с более оригинальными играми.",
+    "sourceUrl": "https://diamond-electronics.itch.io/sunny-funtime",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  },
+  {
+    "sourceSheet": "Каталог 50 игр",
+    "sourceRow": 52,
+    "title": "Bram",
+    "normalizedTitle": "bram",
+    "proposedSlug": "bram",
+    "type": "original",
+    "fanUniverse": "—",
+    "storePlatforms": [
+      "itch.io"
+    ],
+    "status": "release",
+    "sourceStatus": "Релиз",
+    "priceType": "free",
+    "sourcePrice": "Бесплатно",
+    "platforms": [
+      "Windows"
+    ],
+    "durationMinutes": null,
+    "sourceDuration": "Короткая",
+    "tags": [
+      "Похищение",
+      "побег",
+      "преследование"
+    ],
+    "legacyRatings": {
+      "streamPotential": 7,
+      "clipsPotential": 8,
+      "source": "excel_v1"
+    },
+    "comment": "Простая хоррор-идея, хорошая для реакции и монтажа.",
+    "sourceUrl": "https://spicybean666.itch.io/bram",
+    "userState": {
+      "completed": false,
+      "streamed": false,
+      "videoReady": false,
+      "personalRating": 0
+    },
+    "source": "excel_import",
+    "verificationStatus": "unverified",
+    "ratingConfidence": "low",
+    "editorialRatings": null,
+    "importedAt": "2026-07-13T07:55:50.236Z",
+    "needsManualReview": true,
+    "contentCategory": null,
+    "curationStatus": "pending",
+    "curationReason": "Нет независимой проверки страницы, сборки и качества; оценки Excel не считаются подтверждёнными.",
+    "warnings": [
+      "Локальные изображения не найдены."
+    ],
+    "existingMatch": null,
+    "possibleDuplicates": [],
+    "images": {
+      "cover": null,
+      "hero": null,
+      "gallery": [],
+      "matchedCount": 0
+    },
+    "decision": "needs_review"
+  }
+]
